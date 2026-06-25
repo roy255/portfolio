@@ -1,16 +1,61 @@
-# React + Vite
+# Shankar's Interactive Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, dynamic, and fully responsive personal portfolio website built to showcase skills, projects, and professional experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dynamic Animations**: Smooth scroll animations and visual effects using AOS (Animate on Scroll).
+- **Responsive Design**: Fully mobile-responsive layout built with Tailwind CSS.
+- **Interactive Video Hero Section**: Engaging background video integration in the hero area.
+- **Skills Showcase**: Categorized listing of programming, web development, and AI tools.
+- **Project Gallery**: Details of past projects, hackathon achievements, and certifications.
+- **Contact Form**: Direct communication channel for potential employers or clients.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
+- **Icons**: React Icons / Custom SVG
+- **Deployment**: Configured for standard static web hosts (Netlify, Vercel, GitHub Pages)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally, follow these steps:
+
+### Prerequisites
+
+- Node.js (v16.0.0 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/roy255/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173` (or the port specified in your terminal).
+
+## Build for Production
+
+To create a production-ready build, run:
+```bash
+npm run build
+```
+This will generate optimized static assets in the `dist/` directory.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
