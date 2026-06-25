@@ -36,6 +36,7 @@ const Hero = () => {
       {/* Background Video */}
       <video
         ref={videoRef}
+        autoPlay
         loop
         muted={isMuted}
         playsInline
